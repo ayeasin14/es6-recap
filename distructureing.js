@@ -33,3 +33,28 @@ const [firstMovie, secondMovie] = ['king khan', 'Dhakar mastan']; //for array se
 const { name, age } = { name: 'alu', age: 14 };
 const { name1, age1 } = { id: 2, name1: 'alu', salary: 12343, age1: 14 }; //serial is not mandatory for object.
 
+
+const employee = {
+    ide: 'VS code',
+    designation: 'developer',
+    machine: 'mac',
+    language: ['html', 'css', 'js'],
+    specification: {
+        height: 66,
+        weight: 67,
+        address: 'kumarkhali',
+        drink: 'water',
+        watch: {
+            color: 'black',
+            price: 500,
+            brand: 'garmin'
+        }
+    }
+}
+
+
+const { machine, ide } = employee;
+const { weight, address } = employee.specification;
+const { brand } = employee?.specification?.watch;
+
+// use ( ? ) for optional caining if there is any object or not.
