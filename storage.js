@@ -20,3 +20,21 @@ const addToLocalStorage = () => {
     valueInput.value = '';
 
 }
+
+/* 
+
+> when we need to add any object iteams in local storage we need to change it by JSON.stringify() to convert in objcet.
+
+> When we need to get any iteam/iteams from Losal storage we need to use JSON.parse() to convert keys and values
+
+
+const studentJSON = JSON.stringify(student);
+console.log(student);
+console.log(studentJSON);
+
+
+const studentObj = JSON.parse(studentJSON);
+console.log(studentObj);
+
+*/
+
