@@ -58,3 +58,5 @@ const newProducts = [...products, newProduct];
 const remaining = products.filter(product => product.name !== 'phone');
 
 console.log(remaining);
+
+
